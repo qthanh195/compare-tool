@@ -4,6 +4,9 @@ Bản khung code theo đúng kiến trúc trong tài liệu kế hoạch. Đã t
 (comparator) chạy đúng, bao gồm cả DXF (Phase 2). Phần UI (Flet) đã chạy thử
 thành công trên Windows.
 
+Lịch sử phiên bản: xem [`CHANGELOG.md`](CHANGELOG.md). Hướng dẫn đóng gói ra
+file `.exe`: xem [`BUILD.md`](BUILD.md).
+
 ## Cách chạy thử — dùng conda (khuyến khích, dự án đang dùng cách này)
 
 ```powershell
@@ -87,7 +90,9 @@ A/File B rồi bấm "So sánh ngay" để xem kết quả.
 2. Trực quan hóa bản vẽ DXF trên canvas (hiện tại DXF chỉ hiển thị dạng bảng
    danh sách thay đổi, giống Excel/CSV)
 3. Chỉnh lại bố cục UI theo mockup Claude Design
-4. Đóng gói bằng `flet build windows` để ra file `.exe`
+4. Đóng gói bằng `flet build windows` để ra file `.exe` — xem hướng dẫn chi
+   tiết trong [`BUILD.md`](BUILD.md) (cần cài thêm Visual Studio C++
+   workload trước khi build được)
 
 ## Cấu trúc thư mục
 
